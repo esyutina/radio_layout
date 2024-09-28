@@ -1,0 +1,326 @@
+.container {
+  position: relative;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.promo {
+  background: url("../images/main_bg.jpeg") center center / cover no-repeat;
+  padding: 22px 0 50px 0;
+}
+
+.title {
+  font-weight: 900;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.logo__img {
+  display: block;
+  margin: 0 auto;
+}
+
+.logo__text {
+  font-style: normal;
+  line-height: normal;
+  font-size: 16px;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 13px;
+}
+
+.title__colored {
+  color: rgb(249, 191, 59);
+  font-size: 41px;
+  line-height: 41px;
+  letter-spacing: 0px;
+}
+
+.title__big {
+  color: rgb(255, 255, 255);
+  font-size: 80px;
+  line-height: 80px;
+  letter-spacing: 0px;
+}
+
+.btn {
+  display: block;
+  padding: 0 15px;
+  color: rgb(255, 255, 255);
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.22);
+  min-width: 315px;
+  min-height: 72px;
+  border-radius: 4px;
+  background: linear-gradient(0deg, rgb(255, 77, 0), rgb(254, 176, 93) 100%);
+  cursor: pointer;
+  border: none;
+}
+
+.promo h1 {
+  margin-top: 52px;
+  margin-bottom: 0px;
+}
+
+.promo h2 {
+  margin-top: 12px;
+  margin-bottom: 0px;
+}
+
+.promo p {
+  color: rgb(255, 255, 255);
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+.promo .btn {
+  margin: 75px auto;
+}
+
+.promo__text {
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+p span {
+  color: rgb(249, 191, 59);
+  text-transform: uppercase;
+}
+
+.promo__img {
+  display: block;
+  margin: 8px auto 0 auto;
+  width: 34px;
+  height: 23px;
+}
+
+.intensive {
+  background: rgb(239, 239, 239);
+  padding: 80px 0;
+}
+
+.intensive__title {
+  color: rgb(37, 37, 37);
+  font-size: 30px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.divider {
+  margin: 14px auto 0 auto;
+  width: 220px;
+  height: 7px;
+  background: rgb(249, 191, 59);
+}
+
+.intensive__subtitle {
+  margin: 15px auto 42px auto;
+  color: rgb(74, 74, 74);
+  font-size: 23px;
+  font-weight: 500;
+  line-height: 27px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+
+.intensive__wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.intensive__item {
+  width: 360px;
+}
+
+.intensive__img {
+  width: 100%;
+}
+
+.intensive__decsr {
+  margin-top: 15px;
+  color: rgb(74, 74, 74);
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 21px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+
+.info {
+  min-height: 564px;
+  background: rgb(15, 11, 11);
+  padding: 100px 0 140px 0;
+}
+
+.info__title {
+  color: rgb(249, 191, 59);
+  font-size: 30px;
+  font-weight: 900;
+  line-height: 35px;
+  letter-spacing: 0px;
+  text-align: right;
+}
+
+.info__text {
+  position: relative;
+  z-index: 2;
+  padding-left: 390px;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 0px;
+  text-align: right;
+}
+
+.info__text.medium {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0px;
+  text-align: right;
+}
+
+.info__img {
+  z-index: 1;
+  position: absolute;
+  top: 93px;
+  left: -83px;
+}
+
+.skills {
+  padding: 80px 0 102px 0;
+  background: url(../images/completing_the_training.jpg) center center / cover
+    no-repeat;
+}
+
+.skills__title {
+  margin: 0;
+  color: rgb(239, 239, 239);
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.skills__wrapper {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.skills__item {
+  width: 224px;
+  text-align: center;
+}
+
+.skills__round {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  background: rgb(249, 191, 59);
+  width: 115px;
+  height: 115px;
+  border-radius: 100%;
+}
+
+.skills__desc {
+  margin-top: 18px;
+  color: #efefef;
+  text-align: center;
+}
+
+.bonus {
+  padding: 80px 0;
+  background-color: rgb(239, 239, 239);
+}
+
+.present {
+  width: 155px;
+  height: 150px;
+  display: block;
+  margin: 0 auto;
+}
+
+.bonus__text {
+  margin-top: 80px;
+  margin-bottom: 0px;
+  color: rgb(37, 37, 37);
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0px;
+  text-align: center;
+}
+
+.btn.bonus__btn {
+  margin: 60px auto;
+}
+
+.webinar {
+  padding: 50px;
+  background-color: #0f0b0b;
+}
+
+.webinar__img {
+  display: block;
+  margin: 0 auto;
+}
+
+.webinar__medium {
+  color: rgb(255, 255, 255);
+  margin-top: 40px;
+  margin-bottom: 0;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 35px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+
+.webinar__black {
+  color: rgb(249, 191, 59);
+  margin: 20px;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 900;
+  line-height: 36px;
+  letter-spacing: 0px;
+}
+
+.webinar__text {
+  color: rgb(239, 239, 239);
+  margin: 0;
+  text-align: center;
+  font-size: 23px;
+  font-weight: 500;
+  line-height: 27px;
+}
+
+.footer {
+  text-align: center;
+  padding: 58px 0 83px 0;
+  background-color: rgb(26, 26, 26);
+}
+
+a {
+  color: rgb(136, 136, 136);
+}
